@@ -208,7 +208,7 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className="text-3xl font-bold underline">
+        <h1 className="text-5xl font-bold ">
           Buy Ratish a Coffee!
         </h1>
 
@@ -263,7 +263,7 @@ export default function Home() {
             </form>
           </div>
         ) : (
-            <button onClick={connectWallet}> Connect your wallet </button>
+            <button className="bg-sky-400 rounded-full p-2 hover:shadow-lg hover:opacity-75 hover:bg-blue-500 hover:font-medium" onClick={connectWallet}> Connect your wallet </button>
           )}
       </main>
 
